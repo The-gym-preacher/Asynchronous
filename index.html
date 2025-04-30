@@ -9,9 +9,17 @@
 </head>
 <body class="bg-amber-50 min-h-screen flex flex-col items-center justify-center text-center font-sans p-6">
   <div class="max-w-2xl w-full">
-    <h1 class="text-4xl font-bold text-blue-800 mb-4">Welcome to Preacher</h1>
-    <p class="text-lg text-gray-700 mb-6">Repository Display</p>
-    <div id="text" class="text-lg space-y-4"></div>
+    <h1 class="text-4xl font-bold text-blue-800 mb-4">Welcome to Preacher's</h1>
+    <p class="text-lg text-gray-700 mb-6">Repositories Display</p>
+    <div id="text" class="text-lg space-y-4">
+        <div id="loader" class="flex justify-center items-center">
+          <svg class="animate-spin h-8 w-8 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+          </svg>
+          <span class="ml-2 text-gray-500 text-sm">Loading repositories...</span>
+        </div>
+      </div>      
   </div>
 </body>
 </html>

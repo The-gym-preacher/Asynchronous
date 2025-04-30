@@ -1,4 +1,4 @@
-const API = "https://api.github.com/users/Preacher-Y";
+const API = "https://api.github.com/users/Joconde-N";
 
 setTimeout(() => {
     async function handlePromise() {

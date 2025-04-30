@@ -1,4 +1,4 @@
-const API = "https://api.github.com/users/Joconde-N";
+const API = "https://api.github.com/users/Preacher-Y";
 
 setTimeout(() => {
     async function handlePromise() {
@@ -8,10 +8,10 @@ setTimeout(() => {
         try {
             const data = await fetch(API);
             const results = await data.json();
-            console.log(results);
+        
             const repos = await fetch(results.repos_url);
             const reposResults = await repos.json();
-            console.log(reposResults);
+        
             const names = reposResults.map(repo => `
                 <div class="bg-white shadow-lg p-4 hover:-translate-y-2 transition-all duration-600 rounded-lg text-left">
                     <p><strong>Name:</strong> <span class="text-gray-600">${repo.name}</span></p>

@@ -1,6 +1,7 @@
 const input = document.getElementById("input");
 const textDiv = document.getElementById("text");
 const loader = document.getElementById("loader");
+const username = 'Preacher-Y';
 
 let controller = null; // store AbortController instance
 

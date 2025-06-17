@@ -238,7 +238,7 @@ function displayRepos(repos, searchQuery = '') {
         ${searchInfo}
         
         ${repos.length > 0 ? 
-            `<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">${reposHTML}</div>` :
+            `<div class="grid gap-6 xl:grid-cols-2">${reposHTML}</div>` :
             `<div class="text-center p-12 bg-gray-50 rounded-2xl">
                 <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.5-.746-6.26-2.016a7.962 7.962 0 010-5.968A7.962 7.962 0 0112 5c2.34 0 4.5.746 6.26 2.016a7.962 7.962 0 010 5.968z"/>

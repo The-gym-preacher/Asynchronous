@@ -165,7 +165,7 @@ function displayRepos(repos, searchQuery = '') {
                 </div>
             </div>
             
-            <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-2 justify-between">
                 <div class="flex space-x-4 text-sm text-gray-600">
                     <span class="flex items-center">
                         <svg class="w-4 h-4 mr-1 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
@@ -184,7 +184,7 @@ function displayRepos(repos, searchQuery = '') {
                 <div class="flex space-x-2">
                     <a href="${repo.html_url}" target="_blank" 
                        class="px-4 py-2 bg-blue-500 self-center hover:bg-blue-600 text-white text-sm rounded-lg transition-colors">
-                        View Repo
+                        View
                     </a>
                     <a href="${repo.clone_url}" target="_blank" 
                        class="px-4 py-2 bg-gray-500 self-center hover:bg-gray-600 text-white text-sm rounded-lg transition-colors">

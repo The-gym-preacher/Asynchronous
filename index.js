@@ -183,11 +183,11 @@ function displayRepos(repos, searchQuery = '') {
                 
                 <div class="flex space-x-2">
                     <a href="${repo.html_url}" target="_blank" 
-                       class="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm rounded-lg transition-colors">
+                       class="px-4 py-2 bg-blue-500 self-center hover:bg-blue-600 text-white text-sm rounded-lg transition-colors">
                         View Repo
                     </a>
                     <a href="${repo.clone_url}" target="_blank" 
-                       class="px-4 py-2 bg-gray-500 hover:bg-gray-600 text-white text-sm rounded-lg transition-colors">
+                       class="px-4 py-2 bg-gray-500 self-center hover:bg-gray-600 text-white text-sm rounded-lg transition-colors">
                         Clone
                     </a>
                 </div>
